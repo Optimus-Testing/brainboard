@@ -1,1 +1,2 @@
-# Variables for container_registry
+variable "location" {}
+variable "resource_group_name" {}

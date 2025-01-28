@@ -1,1 +1,1 @@
-# Variables for resource_group
+variable "location" {}

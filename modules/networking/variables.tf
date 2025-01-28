@@ -1,1 +1,2 @@
-# Variables for networking
+variable "location" {}
+variable "resource_group_name" {}

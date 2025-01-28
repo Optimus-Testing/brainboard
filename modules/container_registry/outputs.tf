@@ -1,1 +1,3 @@
-# Outputs for container_registry
+output "acr_name" {
+  value = azurerm_container_registry.this.name
+}
