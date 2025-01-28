@@ -1,4 +1,3 @@
-
 module "resource_group" {
   source              = "./modules/resource_group"
   location            = var.location
@@ -16,7 +15,7 @@ module "aks" {
   location            = var.location
   node_count          = var.node_count
   vm_size             = var.vm_size
-  aks_subnet_id       = module.networking.aks_subnet_id
+  aks_subnet_id       = module.networking.vnet_name
 }
 
 module "key_vault" {
